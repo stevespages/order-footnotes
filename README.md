@@ -1,12 +1,12 @@
 # order-footnotes
 
-This program puts renumbers footnotes in a document. Both the footnotes in the body of the text and their definitions are put into numberical order.
+This program re-numbers footnotes in a document. Both the footnotes in the body of the text and their definitions are put into numerical order.
 
 When writing a document with numbered footnotes it is common for the footnotes in the body of the text to get out of order because the author will likely add some footnotes to a position in the text before some already existing footnotes that appear later in the text but were added at an earlier time. The footnote definitions that appear at the end of the document are more easily kept in order by the author but they do not need to be for this program to put them in order.
 
 ## Usage
 
-This program requires Node.js, an open-source JavaScript runtime environment for Windows, Linux, Unix, macOS and more, needs to be installed on your computer.
+This program requires Node.js, an open-source JavaScript runtime environment for Windows, Linux, Unix, macOS and more, to be installed on your computer.
 
 Copy or download `order-footnotes.js` to your computer. Then the program can be invoked on a document file from your command line as follows (where `$` is the cursor on your command line):
 
@@ -28,23 +28,23 @@ Finally I make no guarantees or predictions about the functionality of this prog
 
 `test-order-footnotes.md`
 
-hello people[^1] what a fine[^3] day it[^2] is.
+hello people\[^1] what a fine\[^3] day it\[^2] is.
 
-[^1]: this is about people
+\[^1]: this is about people
 
-[^2]: it contains an "i" and a "t"
+\[^2]: it contains an "i" and a "t"
 
-[^3]: fine is very good
+\[^3]: fine is very good
 
 ## Example after running the program
 
 `test-order-footnotes.md.ordered`
 
-hello people[^1] what a fine[^2] day it[^3] is.
+hello people\[^1] what a fine\[^2] day it\[^3] is.
 
-[^1]:  this is about people
-[^2]:  fine is very good
-[^3]:  it contains an "i" and a "t"
+\[^1]:  this is about people
+\[^2]:  fine is very good
+\[^3]:  it contains an "i" and a "t"
 
 ## What happened?
 
