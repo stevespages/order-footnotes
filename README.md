@@ -20,7 +20,7 @@ If `order-footnotes.js` and `my-document.txt` are in the same directory and you 
 $ node order-footnotes.js my-document.txt
 ```
 
-After running the comman you should find a new file in the same directory as `my-document.txt` called `my-document.txt.ordered`. At this point you could delete my-document.txt and rename the new file to `my-document.txt`.
+After running the command you should find a new file in the same directory as `my-document.txt` called `my-document.txt.ordered`. At this point you could delete `my-document.txt` and rename the new file to `my-document.txt`.
 
 Finally I make no guarantees or predictions about the functionality of this program. It may contain bugs which result in loss of data. As always back up all your data before using it. It is unlikely that the program will alter the content of the input file.
 
@@ -43,7 +43,9 @@ hello people\[^1] what a fine\[^3] day it\[^2] is.
 hello people\[^1] what a fine\[^2] day it\[^3] is.
 
 \[^1]:  this is about people
+
 \[^2]:  fine is very good
+
 \[^3]:  it contains an "i" and a "t"
 
 ## What happened?
